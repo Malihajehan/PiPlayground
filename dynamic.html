@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body>
+    <h1>Dynamic</h1>
+    <h2>{{greeting}} {{name}}</h2>
+    <h2>Lyrics: </h2>
+    {% for lyrics in lyrics %}
+    <p>{{lyrics}}</p>
+    {% endfor %}
+  </body>
+</html>
